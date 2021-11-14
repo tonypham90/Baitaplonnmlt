@@ -17,8 +17,8 @@ namespace ManageStore
         public static void EndSeparate()
         {
             string dast = null;
-            var countdast = Limitcty + Limithd + Limitlh + Limitmsp + Limitsl + Limitsx + Limitth + 3 * 8 - 2;
-            for (var i = 0; i < countdast; i++) dast += "~";
+            int countdast = Limitcty + Limithd + Limitlh + Limitmsp + Limitsl + Limitsx + Limitth + 3 * 8 - 2;
+            for (int i = 0; i < countdast; i++) dast += "~";
             Console.WriteLine(dast);
         }
 
@@ -26,8 +26,8 @@ namespace ManageStore
         public static void MidSeparate()
         {
             string dast = null;
-            var countdast = (Limitcty + Limithd + Limitlh + Limitmsp + Limitsl + Limitsx + Limitth + 3 * 8 - 2) / 2;
-            for (var i = 0; i < countdast; i++) dast += "~";
+            int countdast = (Limitcty + Limithd + Limitlh + Limitmsp + Limitsl + Limitsx + Limitth + 3 * 8 - 2) / 2;
+            for (int i = 0; i < countdast; i++) dast += "~";
             Console.WriteLine(dast);
         }
 

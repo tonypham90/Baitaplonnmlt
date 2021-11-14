@@ -1,26 +1,20 @@
 ﻿using System;
+using System.Text;
 
 namespace ManageStore
 {
     internal class Program
     {
-        // ReSharper disable once UnusedParameter.Local
         private static void Main(string[] args)
         {
             // test create data
+            Console.OutputEncoding = Encoding.UTF8;
             Console.Clear();
             Print.FirstNote();
             Print.Instruction();
-            var warehouse = new Store();
+            Store warehouse = new Store();
             Function.CreateFirstData(ref warehouse);
-            // Print.PrintTable("Danh Sách lô hàng trong kho",warehouse);
-            // bool show = true;
-            // while (show)
-            // {
-            //     Function.FindItems(warehouse);
-            //     show = stringmodifine.Inputyn("Bạn có muốn tìm giá trị khác không?");
-            // }
-            var show = true;
+            bool show = true;
             while (show)
             {
                 Print.EndSeparate();
@@ -29,7 +23,7 @@ namespace ManageStore
                 Print.MidSeparate();
                 Console.WriteLine(
                     "Chức năng:\n1. Tạo mới\n2. Tìm thông tin\n3. Thay đổi thông tin\n4. Xóa\n5. Hướng dẫn sử dụng\n6. Thoát");
-                var userchoose = stringmodifine.Inputnumber("chức năng", 1, 6);
+                int userchoose = stringmodifine.Inputnumber("chức năng", 1, 6);
                 switch (userchoose)
                 {
                     case 1: //nhap hang

@@ -390,12 +390,12 @@ namespace ManageStore
 
         public static void AddNewPackaged(ref Store data)
         {
-            Print.EndSeparate();
-            Console.WriteLine("Nhập lô hàng mới vào kho".ToUpper());
-            Print.MidSeparate();
             bool show = true;
             while (show)
             {
+                Print.EndSeparate();
+                Console.WriteLine("Tạo Mới".ToUpper());
+                Print.MidSeparate();
                 Console.WriteLine("Chức năng:\n1. Nhập lô hàng mới\n2. Tạo loại hàng mới\n3. Thoát");
                 int userchoose = stringmodifine.Inputnumber("chức năng", 1, 3);
                 switch (userchoose)

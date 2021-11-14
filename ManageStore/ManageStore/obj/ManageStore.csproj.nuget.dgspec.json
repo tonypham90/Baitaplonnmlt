@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/ManageStore/ManageStore/ManageStore.csproj": {}
+    "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/Baitaplonnmlt/ManageStore/ManageStore/ManageStore.csproj": {}
   },
   "projects": {
-    "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/ManageStore/ManageStore/ManageStore.csproj": {
+    "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/Baitaplonnmlt/ManageStore/ManageStore/ManageStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/ManageStore/ManageStore/ManageStore.csproj",
+        "projectUniqueName": "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/Baitaplonnmlt/ManageStore/ManageStore/ManageStore.csproj",
         "projectName": "ManageStore",
-        "projectPath": "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/ManageStore/ManageStore/ManageStore.csproj",
+        "projectPath": "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/Baitaplonnmlt/ManageStore/ManageStore/ManageStore.csproj",
         "packagesPath": "/Users/tonypham/.nuget/packages/",
-        "outputPath": "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/ManageStore/ManageStore/obj/",
+        "outputPath": "/Users/tonypham/RiderProjects/khoahoctunhien/Nhap_mon_lap_trinh/Bai_tap_ve_nha/Baitaplonnmlt/ManageStore/ManageStore/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tonypham/.nuget/NuGet/NuGet.Config"

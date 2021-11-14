@@ -55,6 +55,7 @@ namespace ManageStore
 
             string inputtext = "loại hàng";
             int userchoise = stringmodifine.Inputnumber(inputtext, 1, listlabel.Length);
+            Console.WriteLine($"Loại hàng được lựa chọn: {listlabel[userchoise - 1]}");
             return listlabel[userchoise - 1];
         }
 
@@ -62,7 +63,7 @@ namespace ManageStore
         public static void InsertMultiItem(ref Store data, int noRow)
         {
             Console.WriteLine($"Nhập thêm {noRow} lô hàng vào kho");
-            bool auto = false; //stringmodifine.ChooseYesNo("Bạn muốn tạo lô hàng tự động?")
+            // bool auto = false; //stringmodifine.ChooseYesNo("Bạn muốn tạo lô hàng tự động?")
             for (int i = 0; i < noRow; i++)
             {
                 //tang them 1 element cho array
@@ -71,7 +72,7 @@ namespace ManageStore
                 for (int j = 0; j < data.ItemsList.Length; j++) newItemsList[j] = data.ItemsList[j];
 
                 data.ItemsList = newItemsList;
-                data.ItemsList[^1] = InputItem($"Nhập lô hàng thứ {i + 1}", data, auto);
+                data.ItemsList[^1] = InputItem($"Nhập lô hàng thứ {i + 1}", data, false);
             }
         }
 

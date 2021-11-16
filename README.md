@@ -1,7 +1,7 @@
 # Baitaplonnmlt
-ĐỒ ÁN MÔN HỌC NHẬP MÔN LẬP TRÌNH
-Tên Đồ Án: Phần Mềm Quản Lý Hàng Hóa
-MSSV:21880005 - Họ Tên Sinh Viên: Phạm Tuấn Anh
+ĐỒ ÁN MÔN HỌC NHẬP MÔN LẬP TRÌNH.
+Tên Đồ Án: Phần Mềm Quản Lý Hàng Hóa.
+MSSV:21880005 - Họ Tên Sinh Viên: Phạm Tuấn Anh.
 MSMH:CSC10001 - GVGD: Phạm Minh Tuấn
 -----------------------------------------------------
 Hướng dẫn sử dụng:

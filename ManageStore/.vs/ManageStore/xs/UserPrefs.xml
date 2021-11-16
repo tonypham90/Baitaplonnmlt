@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{BDC18B70-974E-4622-8EDF-934FFAEB133C}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="ManageStore/Program.cs">
     <Files>
-      <File FileName="ManageStore/Program.cs" Line="5" Column="20" />
+      <File FileName="ManageStore/Program.cs" Line="12" Column="13" />
+      <File FileName="ManageStore/Print.cs" Line="149" Column="35" />
     </Files>
     <Pads>
       <Pad Id="ClassPad">
@@ -9,14 +10,11 @@
           <Node name="ManageStore" expanded="True">
             <Node name="ManageStore" expanded="True">
               <Node name="ManageStore" expanded="True">
-                <Node name="ManageStore.Program" selected="True" />
+                <Node name="ManageStore.Print" selected="True" />
               </Node>
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

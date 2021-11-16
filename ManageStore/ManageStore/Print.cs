@@ -146,6 +146,7 @@ namespace ManageStore
             EndSeparate();
 
             Console.WriteLine("Hướng dẫn sử dụng".ToUpper() +
+                              "\n Encoding:UTF-8; Dotnet: 5.0" +
                               "\n Quy trình tạo mới: Tạo danh sách loại hàng -> Nhập hàng mới vào kho (Có chức năng tạo hàng mẫu tự động và tạo hàng thủ công)" +
                               "\n1. Tạo mới: " +
                               "\n- Tạo lô hàng mới vào kho" +

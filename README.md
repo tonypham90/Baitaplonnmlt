@@ -4,6 +4,8 @@ Tên Đồ Án: Phần Mềm Quản Lý Hàng Hóa.
 MSSV:21880005 - Họ Tên Sinh Viên: Phạm Tuấn Anh.
 MSMH:CSC10001 - GVGD: Phạm Minh Tuấn
 -----------------------------------------------------
+Link:https://github.com/tonypham90/Baitaplonnmlt
+-----------------------------------------------------
 Hướng dẫn sử dụng:
  Encoding:UTF-8; Dotnet version: 5.0
 Để nhập dữ liệu Unikey chuyển bảng mã nhập dữ liệu là UTF-8:
